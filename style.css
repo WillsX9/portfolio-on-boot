@@ -1,0 +1,25 @@
+:root {
+    --pri-clr: rgb(110, 6, 242);
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 70px;
+}
+.primary-clr {
+    color: var(--pri-clr);
+}
+
+hr {
+    color: var(--pri-clr);
+}
+
+.top-shadow {
+    box-shadow: 0px 0px 5px rgba(110, 6, 242, 0.5);
+}
+
+.clr-btn {
+    background: var(--pri-clr);
+    color: white;
+}
